@@ -19,13 +19,9 @@ TItulo 3
 
 // escrito con ~ en todas las letas del titulo //  
 
-* texto en cursiva * // escrito por un *
+***texto en cursiva*** //escrito por 3*//
 
-** texto en negrita cursiva **  // 2*//
-
-*** escrito con 3 *** // escrito 3 * // 
-
-**** jhtrtryt **** // escrito 4 * //
+**texto en negrita** // 2*//
 
 Lista ordenadas 
 
