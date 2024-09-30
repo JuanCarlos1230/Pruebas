@@ -17,15 +17,15 @@ Esto esta escrito como otro tipo de subtitulo
 TItulo 3 
 ~~~~~~~~
 
-// escrito con ~ en todas las letas del titulo // 
-
-** Texto en negrita ** // escrito por 2 * //
+// escrito con ~ en todas las letas del titulo //  
 
 * texto en cursiva * // escrito por un *
 
-*** texto en negrita + cursiva *** 
+** texto en negrita cursiva **  // 2*//
 
-// escrito con 3 * //
+*** escrito con 3 *** // escrito 3 * // 
+
+**** jhtrtryt **** // escrito 4 * //
 
 Lista ordenadas 
 
