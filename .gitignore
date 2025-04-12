@@ -1,0 +1,15 @@
+# Archivos de compilación
+*.class
+
+# Directorios de compilación
+/bin/
+/build/
+/out/
+
+# Archivos del sistema o IDE
+.DS_Store
+.idea/
+*.iml
+.classpath
+.project
+.settings/
