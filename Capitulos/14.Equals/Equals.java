@@ -3,23 +3,23 @@ import java.util.Scanner;
 
 public class Equals{
     public static void main(String[] args){
-        // Declaramos los objetos Scanner e int y String
+        // Declaramos los objetos Scanner y String
         Scanner entradanum = new Scanner(System.in);
         Scanner entradanom = new Scanner(System.in);
         Scanner entradapass = new Scanner(System.in); 
-        String nom1 = "", nom2 = "";
+        String nom1 = "", nom2 = "", nums = "";
        
         // Preguntamos por el número del ejercicio
         System.out.println("\"Ejercicio 1\" o \"Ejercicio 2\"?");
-        int num = entradanum.nextInt();
-        if (num == 1){
+        nums = entradanum.nextLine();
+        if (nums.equals("1")||nums.equals("Uno")||nums.equals("uno")){
             System.out.println("Comparamos el 1 nombre introducido con el 2 nombre introducido.");    
             // Preguntamos el 1 nombre al usuario
             System.out.println("Ingresa el 1 nombre.");
             nom1 = entradanom.nextLine();
             System.out.println("Ingresa el 2 nombre.");
             nom2 = entradanom.nextLine();
-            // convertimos ambos nombres a minuscula 
+            // convertimos en minusculas los nombres
             nom1 = nom1.toLowerCase();
             nom2 = nom2.toLowerCase();
             
@@ -28,7 +28,7 @@ public class Equals{
             } else {
                 System.out.println("Los nombres son diferentes.");
             } 
-        } else if (num == 2) {
+        } else if (nums.equals("2")||nums.equals("Dos")||nums.equals("dos")){
             System.out.println("Creamos un login:");
             System.out.println("Solo es correcto si usuario es: Carlos y el password es: karLoS.32");    
             // Preguntamos el nombre al usuario
