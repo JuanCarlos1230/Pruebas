@@ -1,3 +1,4 @@
+// Programa al cual le dices tu nombre y dos numneros para que te los sume.
 
 import java.util.Scanner;
 
