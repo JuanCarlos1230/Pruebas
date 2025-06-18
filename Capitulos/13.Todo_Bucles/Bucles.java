@@ -1,4 +1,12 @@
 
+/* Programa en el cual seleccionas el tipo de bucle que deseas reproducir el 
+1 es una seqüencia que va del 1 al 10 -> 1,2,3,4,5,6,7,8,9,10
+el 2 es una seqüencia donde el primero bucle suma 2 y el 2 resta 3
+2 --> 16,50,18,47,20,44,22,41,24,38,26,35 y el tercer bucle es la seqüencia fibonacci que suma 
+el 1 y el 2 y el 3 es el resultado de dicha suma 
+3 --> 0,1,1,2,3,5,8,13,21,34.   
+*/
+
 import java.util.Scanner;
 
 public class Bucles{
@@ -20,7 +28,7 @@ public class Bucles{
             System.out.println(i);
         } else if (numBucle == 2){
             System.out.println("Seleccionaste el bucle 2.");
-            // bucle que suma la j de 2 en 2 y resta de 3 en 3
+            // bucle que suma la j de 2 en 2 y resta la k de 3 en 3
             for(j = 16; j<= 26; j = j+2){
                 if (j < 26){
                     System.out.print(j + ",");
@@ -51,3 +59,4 @@ public class Bucles{
         }        
     }
 }
+
