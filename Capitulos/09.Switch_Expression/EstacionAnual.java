@@ -1,4 +1,5 @@
-
+// Programa que determina la estción del año según el numero del més.
+ 
 import java.util.Scanner;
 
 public class EstacionAnual{
@@ -8,7 +9,7 @@ public class EstacionAnual{
         Scanner numMes = new Scanner(System.in);
         
         System.out.println("Introduce el número del més");
-        mes = numMes.nextInt(); // entrada para introfucir el número del més     
+        mes = numMes.nextInt(); // entrada para introducir el número del més     
  
         switch(mes){
             case 1,2,12  -> System.out.println("Invierno");
