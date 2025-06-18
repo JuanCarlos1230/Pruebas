@@ -1,3 +1,5 @@
+// Programa que demuestra como poniendo parentesis las operaciones tienen prioridad.
+
 public class Operaciones{
     public static void main(String[] args){
     
