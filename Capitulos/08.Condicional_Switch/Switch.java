@@ -1,9 +1,11 @@
+// Escribe los dos numeros que desas operar y luego escoje la operacion.
+
 import java.util.Scanner;
 
 public class Switch{
     public static void main(String[] args){
         
-        int numUno = 0, numDos = 0, resultado = 0, parametro = 0;
+        int numUno = 0, numDos = 0, resultado = 0, operacion = 0;
         Scanner num = new Scanner(System.in);
         
         System.out.println("Cuál es el primer número que deseas?");
@@ -14,9 +16,9 @@ public class Switch{
         
         System.out.println("Que operación deseas realizar?");
         System.out.println("1-Sumar, 2-Restar, 3-Multiplicar, 4-Dividir");
-        parametro = num.nextInt();
+        operacion = num.nextInt();
         
-        switch(parametro){
+        switch(operacion){
         
             case 1: resultado = numUno + numDos;
                 System.out.println("El resultado de la suma es: " + resultado);
@@ -34,7 +36,7 @@ public class Switch{
                 System.out.println("El resultado de la división es: " + resultado);
                 break;
                 
-            default : System.out.println("Error, la operación no existe");
+            default: System.out.println("Error, la operación no existe");
                 break;   
         }    
     }
