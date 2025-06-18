@@ -1,3 +1,6 @@
+/* Programa que calcula la nota media entre las 3 materias e imprime
+ * si aprobaste o reprobaste y la nota media que sacaste entre las 3 materias. 
+ */
 
 public class Condicionales{
     public static void main(String[] args){
