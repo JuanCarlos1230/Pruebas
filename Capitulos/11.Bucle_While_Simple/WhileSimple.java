@@ -1,3 +1,7 @@
+
+/* Programa que es un bucle que puedes ser creciente o decreciente
+según si el numero inical es menor o mayor al del final.*/ 
+
 import java.util.Scanner;
 
 public class WhileSimple{
@@ -11,9 +15,9 @@ public class WhileSimple{
         numInici = num.nextInt();
         System.out.println("Introduce el segundo número");
         numFi = num.nextInt();     
-        /* hacemos un recorrido de los números de entrada ya sea incrementadon o decrementando*/
+        /* hacemos un recorrido de los números de entrada ya sea incrementado o decrementando*/
         if (numInici < numFi) {
-            while (numInici <= numFi -1){        
+            while (numInici <= numFi - 1){        
                 System.out.print(numInici + ", ");
                 numInici++; 
             }
@@ -29,3 +33,4 @@ public class WhileSimple{
         }
     }
 }
+
