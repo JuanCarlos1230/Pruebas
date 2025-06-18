@@ -1,24 +1,29 @@
+/* Programa que te permite elegir la operacion que deseas realizar con la variable numUno y numDos 
+e imprimir el resultado.*/
 
+import java.util.Scanner;
+ 
 public class CondicionAnidada{
     public static void main(String []args){
         
         int numUno = 15;
         int numDos = 3;
-        int resultado = 0;     
+        int resultado = 0;
+        Scanner operacion = new Scanner(System.in);       
        
         System.out.println("Que operación deseas hacer: 1(Sumar), 2(Restar), 3(Multimplicar), 4(Dividir)?");
-        int operacion = Integer.parseInt(Entrada.readLine()); //Usamos readLine para introducir datos.
+        int numOperacion = operacion.nextInt(); 
         
-        if (operacion == 1){
+        if (numOperacion == 1){
             resultado = numUno + numDos;
             System.out.println("El resultado és " + resultado);
-        } else if (operacion == 2){
+        } else if (numOperacion == 2){
             resultado = numUno - numDos;
             System.out.println("El resultado és " + resultado);
-        } else if (operacion == 3){
+        } else if (numOperacion == 3){
             resultado = numUno * numDos;
             System.out.println("El resultado és " + resultado);
-        } else if (operacion == 4) {
+        } else if (numOperacion == 4) {
             resultado = numUno / numDos;
             System.out.println("El resultado és " + resultado);   
         } else {
