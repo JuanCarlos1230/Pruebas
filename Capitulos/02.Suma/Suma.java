@@ -1,3 +1,5 @@
+// Programa que suma la numUno y numdos lo guarda en la variable resultado e imprime el resultado.
+
 public class Suma{
     public static void main(String[] args){
     
