@@ -1,3 +1,5 @@
+/* Programa que pregunta por 5 numeros los guarda en un array y luego los imprime */
+
 import java.util.Scanner;
 
 public class Arrays{
@@ -20,11 +22,12 @@ public class Arrays{
         System.out.print("Introduce el 5 numero: "); 
         int num5 = num.nextInt(); 
         nums[4] = num5; 
-           
-        for (int i = 0; i<nums.length; i++){
-            System.out.print("Introduce el " + (i + 1) + " numero: ");
-            
-            System.out.println("Estos son los numeros guardados: " +  nums[i]); 
-        } 
+        System.out.print("Estos son los numeros guardados: ");
+        int i = 0;
+        for (i = 0; i<nums.length - 1; i++){
+            System.out.print(nums[i] + ",");             
+        }
+        System.out.print(nums[i]);
+        System.out.println(); 
     } 
 }
