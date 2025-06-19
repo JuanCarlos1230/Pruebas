@@ -1,24 +1,25 @@
+/* Programa que verifica por un lado que los nombres sean igual idependientemente de estar 
+escritos en mayuscula o minuscula y verifica que el usuario y contraseña sean correctos.
+*/
 
 import java.util.Scanner;
 
 public class Equals{
     public static void main(String[] args){
         // Declaramos los objetos Scanner y String
-        Scanner entradanum = new Scanner(System.in);
-        Scanner entradanom = new Scanner(System.in);
-        Scanner entradapass = new Scanner(System.in); 
+        Scanner entrada = new Scanner(System.in);  
         String nom1 = "", nom2 = "", nums = "";
        
         // Preguntamos por el número del ejercicio
         System.out.println("\"Ejercicio 1\" o \"Ejercicio 2\"?");
-        nums = entradanum.nextLine();
+        nums = entrada.nextLine();
         if (nums.equals("1")||nums.equals("Uno")||nums.equals("uno")){
             System.out.println("Comparamos el 1 nombre introducido con el 2 nombre introducido.");    
             // Preguntamos el 1 nombre al usuario
             System.out.println("Ingresa el 1 nombre.");
-            nom1 = entradanom.nextLine();
+            nom1 = entrada.nextLine();
             System.out.println("Ingresa el 2 nombre.");
-            nom2 = entradanom.nextLine();
+            nom2 = entrada.nextLine();
             // convertimos en minusculas los nombres
             nom1 = nom1.toLowerCase();
             nom2 = nom2.toLowerCase();
@@ -34,9 +35,9 @@ public class Equals{
             // Preguntamos el nombre al usuario
             System.out.println("Cuál es tu nombre de usuario?");
             // Declaramos la variable String
-            String nom = entradanom.nextLine();
+            String nom = entrada.nextLine();
             System.out.println("Cuál es tu password de usuario?");
-            String password = entradapass.nextLine();
+            String password = entrada.nextLine();
             if (nom.equals("Carlos") && (password.equals("karLoS.32"))){
                 System.out.println("El usuario es correcto.");
             } else {
