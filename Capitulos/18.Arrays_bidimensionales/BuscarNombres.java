@@ -1,3 +1,9 @@
+
+/* Programa que guarda una lista de nombres en una array de arrays 
+y pedimos al usuario que ingrese el numero de fila y de columna quede dese para encontrar
+su nombre deseado.
+*/
+
 import java.util.Scanner;
 
 public class BuscarNombres{
@@ -29,7 +35,7 @@ public class BuscarNombres{
             System.out.println("Ingresa la columna del nombre que deseas del 1 al 4:");   
         }
         //Entrada para que el usuario introduzca la columna
-        int columna = Integer.parseInt(Entrada.readLine());
+        int columna = entrada.nextInt();
         
         // comprobamos que sea realmente del 1 al 4 la columna
         if (columna <=0 || columna > 4) {
